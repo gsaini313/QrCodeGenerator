@@ -6,7 +6,7 @@ services:
       registry: ghcr.io
       repository: gsaini313/qr-code-generator
       tag: latest
-    environment_slug: custom  # Change from 'docker' to 'custom'
+    environment_slug: docker  # Revert to 'docker'
     github:
       branch: main
     routes:
