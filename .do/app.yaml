@@ -2,7 +2,10 @@ name: qr-code-generator
 
 services:
   - name: web
-    image: ghcr.io/${{ github.repository }}:latest
+    image:
+      registry: ghcr.io
+      repository: gsaini313/qr-code-generator
+      tag: latest
     environment_slug: docker
     github:
       branch: main
