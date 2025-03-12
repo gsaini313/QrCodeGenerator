@@ -1,0 +1,10 @@
+name: qr-code-generator
+
+services:
+  - name: web
+    image: ghcr.io/${{ github.repository }}:latest
+    environment_slug: docker
+    github:
+      branch: main
+    routes:
+      - path: /
