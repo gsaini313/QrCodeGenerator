@@ -1,2 +1,2 @@
 # QrCodeGenerator
-This API generates QR Codes for links
+This API generates QR Codes for text
