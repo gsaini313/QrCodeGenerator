@@ -16,7 +16,7 @@ namespace API.Controllers
         /// <summary>
         /// Generates a QR code image in PNG, JPG, or SVG formats.
         /// </summary>
-        /// <param name="text" example="https://myportfolio.com">Text to encode in the QR code.</param>
+        /// <param name="text" example="Your Text Here">Text to encode in the QR code.</param>
         /// <param name="size" example="350">Size of the QR code in pixels (Optional, default: 300).</param>
         /// <param name="foregroundColor" example="#000000">Foreground color in HEX format (Optional, default: #000000).</param>
         /// <param name="backgroundColor" example="#FFFFFF">Background color in HEX format (Optional, default: #FFFFFF).</param>
