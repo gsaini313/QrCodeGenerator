@@ -6,9 +6,6 @@ using System.Text;
 
 namespace API.Controllers
 {
-    /// <summary>
-    /// QR Code Generator API
-    /// </summary>
     [Route("api/qrcode")]
     [ApiController]
     public class QRCodeController : ControllerBase
